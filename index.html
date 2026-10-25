@@ -12,13 +12,13 @@
 
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Daniel Davis · Inverse Problems, Bayesian Inference, Scientific ML">
-  <meta property="og:description" content="Geophysics PhD candidate (Colorado School of Mines) with 8+ years of industry R&amp;D. Open to Research Scientist and Applied Scientist roles.">
+  <meta property="og:description" content="Geophysics PhD candidate (Colorado School of Mines) with 8+ years of industry R&amp;D. Open to AI research scientist and research engineer roles, and 2027 PhD research internships.">
   <meta property="og:url" content="https://mdaniel22.github.io/">
   <meta property="og:image" content="https://mdaniel22.github.io/assets/headshot.jpg">
   <meta property="og:image:alt" content="Portrait of Daniel Davis">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Daniel Davis · Inverse Problems, Bayesian Inference, Scientific ML">
-  <meta name="twitter:description" content="Geophysics PhD candidate (Colorado School of Mines) with 8+ years of industry R&amp;D. Open to Research Scientist and Applied Scientist roles.">
+  <meta name="twitter:description" content="Geophysics PhD candidate (Colorado School of Mines) with 8+ years of industry R&amp;D. Open to AI research scientist and research engineer roles, and 2027 PhD research internships.">
   <meta name="twitter:image" content="https://mdaniel22.github.io/assets/headshot.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,8 +74,9 @@
     <nav class="wrap nav-inner" aria-label="Primary">
       <a class="nav-brand" href="#top">Daniel Davis</a>
       <ul class="nav-links">
+        <li><a href="#research">Research</a></li>
         <li><a href="#work">Work</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li class="nav-exp"><a href="#experience">Experience</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="assets/Daniel_Davis_CV.pdf">CV</a></li>
       </ul>
@@ -92,9 +93,9 @@
       <div class="hero-grid">
         <div class="hero-text">
           <h1 id="hero-name">Daniel Davis</h1>
-          <p class="hero-position">Research scientist for physics-based inverse problems, Bayesian inference, and scientific ML.</p>
+          <p class="hero-position">Bayesian inference and machine learning for ill-posed inverse problems on physical sensor data.</p>
           <p class="hero-sub">PhD candidate at Colorado School of Mines, after 8+ years of industry R&amp;D at PETRONAS solving inverse problems on large, noisy sensor data.</p>
-          <p class="hero-status"><span class="status-dot" aria-hidden="true"></span>PhD expected Fall 2027 · Open to Research Scientist and Applied Scientist roles</p>
+          <p class="hero-status"><span class="status-dot" aria-hidden="true"></span>PhD expected 2028 · Open to AI research scientist / engineer roles and summer 2027 research internships</p>
           <ul class="hero-actions">
             <li><a class="btn btn-primary" href="assets/Daniel_Davis_CV.pdf">CV (PDF)</a></li>
             <li><a class="btn" href="https://scholar.google.com/citations?user=xQ2FQlAAAAAJ">Google Scholar</a></li>
@@ -129,6 +130,23 @@
         <li class="tile">
           <span class="metric">230M</span>
           <span class="caption">barrels of projected leads identified with image-processing tools</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CURRENT RESEARCH: update status labels as milestones ship -->
+    <section class="wrap section" id="research" aria-labelledby="research-h">
+      <h2 class="section-label" id="research-h">Current research</h2>
+      <ul class="directions">
+        <li class="direction">
+          <p class="dir-status mono">In progress · 2026–27</p>
+          <h3>Multimodal trans-dimensional Bayesian inversion of dispersion data</h3>
+          <p>Reversible-jump MCMC that infers shear-velocity profiles and the number of layers jointly from fundamental and first-order surface-wave dispersion, with full uncertainty, scaled column by column to 3-D volumes on HPC.</p>
+        </li>
+        <li class="direction">
+          <p class="dir-status mono">Planned · 2027</p>
+          <h3>Evaluating LLM reasoning on geophysical inverse problems</h3>
+          <p>A benchmark of data-interpretation, inversion, failure-diagnosis and experiment-planning tasks whose answers are checked by forward simulation, measuring accuracy, calibration and the effect of tools and test-time compute.</p>
         </li>
       </ul>
     </section>
@@ -237,6 +255,7 @@
             <ul>
               <li>Developed I-FDG, which recovers sub-2&nbsp;Hz wavefields from ambient noise; published in <em>Geophysical Journal International</em> (2026).</li>
               <li>Building a trans-dimensional Bayesian (reversible-jump MCMC) inversion that returns depth profiles with uncertainty.</li>
+              <li>Built a 3-D Bayesian surface-wave inversion pipeline on the Wendian HPC cluster: SLURM array jobs, 3-D RBF interpolation and interactive Plotly visualization.</li>
             </ul>
           </div>
         </li>
@@ -291,15 +310,15 @@
           <p class="pub-meta"><strong>Davis, D.</strong>, Shragge, J., de Ridder, S., Girard, A.J., Pandey, A. 2026. <em>Geophysical Journal International</em>, 245(3), ggag146.</p>
         </li>
         <li>
-          <p class="pub-title"><span class="todo">[TODO: SEG 2025 (IMAGE '25) title]</span></p>
-          <p class="pub-meta"><span class="todo">[TODO: authors]</span> 2025. <em>IMAGE '25 (SEG/AAPG)</em>. <span class="todo">[TODO: DOI]</span></p>
+          <p class="pub-title">Trans-dimensional Bayesian inversion of interferometric frequency-domain gradiometry</p>
+          <p class="pub-meta"><strong>Davis, D.</strong>, Shragge, J., Garvey, S. 2026. <em>International Meeting for Applied Geoscience &amp; Energy (IMAGE 2026), SEG/AAPG</em>. Poster.</p>
         </li>
         <li>
-          <p class="pub-title"><span class="todo">[TODO: SEG 2024 (IMAGE '24) title]</span></p>
-          <p class="pub-meta"><span class="todo">[TODO: authors]</span> 2024. <em>IMAGE '24 (SEG/AAPG)</em>. <span class="todo">[TODO: DOI]</span></p>
+          <p class="pub-title">Ambient seismic frequency-domain gradiometry</p>
+          <p class="pub-meta"><strong>Davis, D.</strong>, Shragge, J., de Ridder, S., Girard, A.J. 2025. <em>International Meeting for Applied Geoscience &amp; Energy (IMAGE 2025), SEG/AAPG</em>. Poster.</p>
         </li>
         <li>
-          <p class="pub-title">3D velocity model building based upon hybrid neural network</p>
+          <p class="pub-title"><a href="https://doi.org/10.1190/image2022-3745433.1">3D velocity model building based upon hybrid neural network</a></p>
           <p class="pub-meta">Rusmanugroho, H., Li, J., <strong>Davis Muhammed, M.D.</strong>, Sun, J. 2022. <em>Second International Meeting for Applied Geoscience &amp; Energy (SEG/AAPG)</em>, 1634–1638.</p>
         </li>
         <li>
@@ -308,14 +327,14 @@
         </li>
         <li>
           <p class="pub-title">Comparison between the pseudo-analytical and finite difference method for seismic modelling and imaging</p>
-          <p class="pub-meta"><strong>Muhammed, M.D.D.B.</strong>, Isa, M.N., Mishra, S. 2022. <em>Offshore Technology Conference Asia</em>.</p>
+          <p class="pub-meta"><strong>Muhammed, M.D.D.</strong>, Isa, M.N., Mishra, S. 2022. <em>Offshore Technology Conference Asia</em>.</p>
         </li>
         <li>
           <p class="pub-title"><a href="https://doi.org/10.3997/2214-4609.202070028">Imaging of fiber optics DAS VSP installed behind casing and with an inflatable liner</a></p>
           <p class="pub-meta"><strong>Muhammed, M.D.D.</strong>, Zahir, M.H.M., Ghazali, A.R., Rahim, M.F.A. 2020. <em>EAGE Workshop on Fiber Optic Sensing, Asia Pacific</em>.</p>
         </li>
       </ol>
-      <p class="pub-note">Publishes as both <em>Davis, D.</em> and <em>Muhammed, M.D.D.</em></p>
+      <p class="pub-note">Publishes as <em>Davis, D.</em>, <em>Davis Muhammed, M.D.</em> and <em>Muhammed, M.D.D.</em></p>
       <p><a class="more" href="https://scholar.google.com/citations?user=xQ2FQlAAAAAJ">Full list on Google Scholar →</a></p>
     </section>
 
@@ -326,7 +345,7 @@
         <div class="skill-group">
           <h3>ML &amp; Statistics</h3>
           <ul class="chips">
-            <li>CNNs</li><li>RNNs</li><li>Decision trees</li><li>Bayesian inference</li><li>MCMC</li><li>Reversible-jump sampling</li><li>Monte Carlo simulation</li><li>Uncertainty quantification</li><li class="todo">[TODO: DL frameworks, e.g. PyTorch, or remove]</li>
+            <li>CNNs</li><li>RNNs</li><li>Decision trees</li><li>Bayesian inference</li><li>MCMC</li><li>Reversible-jump sampling</li><li>Monte Carlo simulation</li><li>Uncertainty quantification</li><!-- TODO: add PyTorch once used -->
           </ul>
         </div>
         <div class="skill-group">
@@ -344,7 +363,7 @@
         <div class="skill-group">
           <h3>Engineering &amp; Compute</h3>
           <ul class="chips">
-            <li>Python</li><li>MATLAB</li><li>Madagascar</li><li>HPC clusters</li><li>Petrel plugin development</li><li>Git</li><li>TFS</li>
+            <li>Python</li><li>MATLAB</li><li>Madagascar</li><li>HPC clusters</li><li>Petrel plugin development</li><li>Git</li><li>TFS</li><li>Claude Code</li>
           </ul>
         </div>
       </div>
@@ -355,7 +374,7 @@
       <h2 class="section-label" id="edu-h">Education</h2>
       <ol class="timeline">
         <li class="tl-item">
-          <p class="tl-date">2023 – 2027 (exp.)</p>
+          <p class="tl-date">2023 – 2028 (exp.)</p>
           <div>
             <h3>PhD, Geophysics <span class="org">· Colorado School of Mines</span></h3>
             <p>Minor in Data Science and Machine Learning. GPA 3.9/4.0. Center for Wave Phenomena, advised by Prof. Jeffrey Shragge.<br>

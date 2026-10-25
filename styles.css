@@ -482,3 +482,18 @@ h1 {
   .site-nav, .wave, .theme-toggle, .skip-link { display: none !important; }
   body { background: #fff; color: #000; }
 }
+
+/* ---------- Current research ---------- */
+.directions { list-style: none; display: grid; gap: 12px; }
+@media (min-width: 720px) { .directions { grid-template-columns: 1fr 1fr; } }
+.direction {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+.direction h3 { font-size: 1.0625rem; margin-top: 4px; }
+.direction p:last-child { font-size: 0.9375rem; color: var(--muted); margin-top: 8px; }
+.dir-status { font-size: var(--step--1); color: var(--accent); letter-spacing: 0.02em; }
+@media (max-width: 419px) { .nav-links .nav-exp { display: none; } }
